@@ -14,7 +14,7 @@ game = {
 		this.resetGuessesRemaining();
 		this.currentWrd = new Word.Word(this.wordBank[Math.floor(Math.random()* this.wordBank.length)]);
 		this.currentWrd.getLets();
-		console.log("Welcome to US ex-Presidents Hangman!\nGuess from all the ex presidents' lst names.");
+		console.log("Welcome to US ex-Presidents Hangman!\nGuess from all the ex presidents' list names.");
 		console.log(this.currentWrd.wordRender() + '\n');
 		this.keepPromptingUser();
 	},
@@ -46,7 +46,7 @@ game = {
 				    }
 		    		if (self.currentWrd.didWeFindTheWord()) {
 				    	console.log('You Won! The president was ' + self.currentWrd.word);
-							console.log('WAY TO GOOOOO!!!!!');
+							console.log('Great job making hangman great again!!!!!');
 				    	return;
 				    }
 			    }
@@ -61,7 +61,7 @@ game = {
 		    	self.keepPromptingUser();
 		    } else if(self.guessesRemaining === 0){
 			    	console.log('You lost! The president was', self.currentWrd.word);
-			    	console.log('Why do you hate America? :( You should have memorized all of your presidents like that weird kid in 3rd grade!');
+			    	console.log('Why do you hate America? :( ');
 			  } else{
 			    	console.log(self.currentWrd.wordRender());
 			  }
