@@ -18,6 +18,7 @@ game = {
 		this.currentWrd.getLets(); //populate currentWrd (made from Word constructor function) object with letters
 		console.log("Welcome to US ex-Presidents Hangman!\nGuess from all the ex presidents' last names.");
  +		console.log(this.currentWrd.wordRender() + '\n');
+ +		console.log(game.wordBank);
 		
 		this.keepPromptingUser();
 
