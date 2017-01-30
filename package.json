@@ -1,7 +1,7 @@
 {
   "name": "hangman",
   "version": "1.0.0",
-  "description": "",
+  "description": "hangman game using node",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/clo2go/week11-Hangman.git"
   },
-  "author": "",
+  "author": "Carlos Lopez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/clo2go/week11-Hangman/issues"
   },
-  "homepage": "https://github.com/clo2go/week11-Hangman#readme"
+  "homepage": "https://github.com/clo2go/week11-Hangman#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {}
 }
