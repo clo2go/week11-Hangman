@@ -4,7 +4,7 @@ var Word = require('./word.js');
 prompt.start();
 
 game = {
-	wordBank : ["Washington", "Adams", "Jefferson", "Madison", "Monroe", "Jackson", "VanBuren", "Harrison", "Tyler", "Polk", "Taylor", "Fillmore", "Pierce", "Buchanan", "Lincoln", "Johnson", "Grant", "Hayes", "Garfield", "Arthur", "Cleveland", "Harrison", "Cleveland", "McKinley", "Roosevelt", "Taft", "Wilson", "Harding", "Coolidge", "Hoover", "Roosevelt", "Truman", "Eisenhower", "Kennedy", "Johnson", "Nixon", "Ford", "Carter", "Reagan", "Bush", "Clinton", "Obama"],
+	wordBank : ["washington", "adams", "jefferson", "madison", "monroe", "jackson", "vanburen", "harrison", "tyler", "polk", "taylor", "fillmore", "pierce", "buchanan", "lincoln", "johnson", "grant", "hayes", "garfield", "arthur", "cleveland", "harrison", "cleveland", "mcKinley", "roosevelt", "taft", "wilson", "harding", "coolidge", "hoover", "roosevelt", "truman", "eisenhower", "kennedy", "johnson", "nixon", "ford", "carter", "reagan", "bush", "clinton", "obama", "trump"],
 	wordsWon : 0,
 	guessesRemaining : 10, //per word
 	currentWrd : null, //the word object
